@@ -21,7 +21,8 @@ Puede actualizar una comida requiriendo un token jwt
 Puede eliminar una comida requiriendo un token jwt
 Esta API maneja los códigos de respuesta 200, 201, 400 y 404 
 
-A parte aquí le dejos los endpoints
+A parte aquí le dejos los endpoints:
+
 -GET http://localhost/WEB_II/comidas
 Al solicitarle a la API esta URL con el método GET te traerá todas las comidas de la tabla comida de la base de datos 
 
