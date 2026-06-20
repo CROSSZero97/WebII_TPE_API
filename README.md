@@ -9,19 +9,31 @@ Este Trabajo se basa en distintos locales que se encuentran en una tabla llamada
 
 #API RESTful
 Siguiendo con la misma base de datos cree una API RESTful que trabaja sobre la tabla comida, esta Api puede:
+
 Enlistar toda la tabla comidas
+
 Ordenarse por cualquiera de los campos de forma ascendente o descendente
+
 Puede traer una comida según su id
+
 Puede paginar la tabla comidas
+
 Puede filtrarse por el campo de tipos, que era el más lógico de usar
+
 Puede crear un usuario requiriendo
+
 Puede generar un token jwt
+
 Puede crear una comida requiriendo un token jwt
+
 Puede actualizar una comida requiriendo un token jwt 
+
 Puede eliminar una comida requiriendo un token jwt
+
 Esta API maneja los códigos de respuesta 200, 201, 400 y 404 
 
-A parte aquí le dejos los endpoints:
+
+#Endpoints:
 
 -GET http://localhost/WEB_II/comidas
 Al solicitarle a la API esta URL con el método GET te traerá todas las comidas de la tabla comida de la base de datos 
